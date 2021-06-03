@@ -8,6 +8,7 @@
         <v-select
           :components="{Deselect, OpenIndicator}"
           :options="countries"
+          :searchable="isMobile ? false : true"
           v-model="countrySelected"
           label="name"
           class="selectItems__select"
@@ -25,7 +26,7 @@
           :components="{Deselect, OpenIndicator}"
           :options="years"
           :disabled="countrySelected ? false : true"
-          :input-el-custom-attributes="{ readonly: 'readonly'}"
+          :searchable="isMobile ? false : true"
           class="selectItems__select"
           placeholder="(type or select)"
         >
@@ -38,6 +39,7 @@
 <script>
 import Indicator from './Indicator';
 import axios from 'axios';
+import { isMobile } from 'mobile-device-detect';
 
 export default {
   name: "Home",
@@ -49,7 +51,8 @@ export default {
       OpenIndicator: Indicator,
       countries: [],
       countrySelected: "",
-      years: []
+      years: [],
+      isMobile: isMobile
     };
   },
   
