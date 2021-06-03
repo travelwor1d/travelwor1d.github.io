@@ -1,4 +1,4 @@
-<a href="/custom-selector">Native Dropdown</a>
+<a href="/custom-selector/">Native Dropdown</a>
 
 ## Project setup
 ```
