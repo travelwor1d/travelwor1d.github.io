@@ -25,6 +25,7 @@
           :components="{Deselect, OpenIndicator}"
           :options="years"
           :disabled="countrySelected ? false : true"
+          input-el-custom-attributes="{ 'readonly': 'readonly'}"
           class="selectItems__select"
           placeholder="(type or select)"
         >
