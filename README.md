@@ -1,4 +1,4 @@
-# vue-select
+<a href="/custom-selector">Native Dropdown</a>
 
 ## Project setup
 ```
@@ -20,5 +20,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
