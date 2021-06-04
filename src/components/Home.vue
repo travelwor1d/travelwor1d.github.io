@@ -1,9 +1,9 @@
 <template>
-  <div class="selectItems">
+  <v-container class="selectItems">
     <h3>Vue Select</h3>
-    <div>
+    <v-row>
       <!-- 1.Countries -->
-      <div>
+      <v-col cols="12" sm="6">
         Countries
         <v-select
           :components="{Deselect, OpenIndicator}"
@@ -18,9 +18,9 @@
             {{ country.name }}
           </template>
         </v-select>
-      </div>
+      </v-col>
       <!-- 2.Years -->
-      <div>
+      <v-col cols="12" sm="6">
         Years
         <v-select
           :components="{Deselect, OpenIndicator}"
@@ -31,9 +31,9 @@
           placeholder="(type or select)"
         >
         </v-select>
-      </div>
-    </div>
-  </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -90,10 +90,6 @@ export default {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-  }
-
-  .selectItems__select {
-    width: 300px;
   }
 
   .vs__selected {
