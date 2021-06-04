@@ -34,7 +34,178 @@
         </v-select>
       </v-col>
     </v-row>
-    <v-row class="bottom-class">
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
+    <v-row>
       <!-- 3.Countries -->
       <v-col cols="12">
         Countries (Default: United State)
