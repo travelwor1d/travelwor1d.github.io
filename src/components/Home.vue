@@ -224,6 +224,19 @@
         </v-select>
       </v-col>
     </v-row>
+    <v-row>
+      <select>
+        <option value="">2</option>
+        <option value="">2</option>
+        <option value="">2</option>
+        <option value="">2</option>
+        <option value="">2</option>
+        <option value="">2</option>
+        <option value="">2</option>
+        <option value="">2</option>
+        <option value="">2</option>
+      </select>
+    </v-row>
   </v-container>
 </template>
 
