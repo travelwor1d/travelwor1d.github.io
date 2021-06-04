@@ -27,6 +27,7 @@
           :options="years"
           :disabled="countrySelected ? false : true"
           :searchable="isMobile ? false : true"
+          ref="yearSelect"
           class="selectItems__select"
           placeholder="(type or select)"
         >
@@ -72,7 +73,12 @@ export default {
       // axios.post('./year.json', {variableName: val})
       axios.get('./year.json')
         .then((res) => {
+          // data for referencing selector
           this.years = res.data;
+
+          // trigger
+          this.$refs["yearSelect"].open = true;
+          this.$refs.yearSelect.$refs.search.focus();
         })
         .catch(error => {
           console.log(error);
@@ -85,11 +91,6 @@ export default {
 <style>
   h3 {
     text-align: center;
-  }
-  .selectItems > div {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
   }
 
   .vs__selected {
@@ -104,7 +105,4 @@ export default {
     outline: 0;
   }
 
-  .vs__dropdown-toggle {
-    border-radius: 0;
-  }
 </style>
