@@ -34,6 +34,25 @@
         </v-select>
       </v-col>
     </v-row>
+    <v-row class="bottom-class">
+      <!-- 3.Countries -->
+      <v-col cols="12">
+        Countries (Default: United State)
+        <v-select
+          :components="{Deselect, OpenIndicator}"
+          :options="countries"
+          :searchable="isMobile ? false : true"
+          v-model="defaultCountry"
+          label="name"
+          class="selectItems__select"
+          placeholder="(type or select)"
+        >
+          <template v-slot:option="country">
+            {{ country.name }}
+          </template>
+        </v-select>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -52,6 +71,7 @@ export default {
       OpenIndicator: Indicator,
       countries: [],
       countrySelected: "",
+      defaultCountry: "",
       years: [],
       isMobile: isMobile
     };
@@ -61,6 +81,7 @@ export default {
     axios.get('./countries.json')
     .then((res) => {
       this.countries = res.data;
+      this.defaultCountry = "United States"
     })
     .catch(error => {
       console.log(error);
@@ -103,6 +124,12 @@ export default {
     z-index: 21;
     border-color: #66afe9;
     outline: 0;
+  }
+
+  .bottom-class {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
   }
 
 </style>
