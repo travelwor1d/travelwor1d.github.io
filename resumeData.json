@@ -1,0 +1,79 @@
+{
+  "main": {
+    "name":"Michael Kapustinsky",
+    "occupation":"Senior Software Developer",
+    "description":"I am a customer oriented and able to contribute as a productive guy",
+    "image":"profilepic.jpg",
+    "contactmessage":"Have me make stuff for you. If you like my work and have some cool projects to work on, just send me a direct message.",
+    "email": "mobilexapp190408@gmail.com",
+    "phone": "+1 (257) 868-393",
+    "address":{
+      "city":"Williamsport",
+      "state":"PA",
+      "zip": "17701"
+    },
+    "website": "https://www.alex-portfolio.org/",
+    "resumedownload":"https://drive.google.com/uc?export=pdf&id=1Z5hSjSXwjk3i4BdCfehg0YSAKZ34BDfC",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/travelwor1d",
+        "className":"fa fa-github"
+      },
+      
+      {
+        "name":"email",
+        "url":"mailto:mobilexapp190408@gmail.com?subject=The%20subject%20of%20the%20mail",
+        "className":"fa fa-envelope"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"MMillersville University of Pennsylvania",
+        "degree":"Bachelor of Architecture (Computer Science)",
+        "graduated":"April 2015",
+        "description":"The study of Algorithms and Data Stuctures, SQL syntax and statements, Full Stack Web Development with Ruby on Rails, JavaScript, React and Redux. Also based on mockups and a broad list of requirements, building complex web applications and terminal utilities."
+      },
+      {
+        "school":"Medical Laboratory technology",
+        "degree":"Associate of Applied Science",
+        "graduated":"March 2009",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Self-Employed",
+        "title":"Senior Software Developer",
+        "years":"February 2019 - Present",
+        "description":"• Hard-working, dedicated and efficacious worker. • Organized, goal oriented and analytical thinker. • Ability to work in a challenging environment with consistency. • Valued contributor who performs confidently and effectively under pressure and thrives on challenge. • Enthusiastic learner who quickly grasps new concepts and technical skills."
+      },
+      {
+        "company":"Sun-Gazette",
+        "title":"Full-Stack developer",
+        "years":"July 2017 - January 2019",
+        "description":"• Discussed project progress with customers, collected feedback on different stages and directly addressed concerns. • Reviewed code, debugged problems and corrected issues. • Adjusted design parameters to boost performance and incorporate new features. • Improved and designed monitoring systems to address issues with system stability and quality of data"
+      },
+      {
+        "company":"Gentis",
+        "title":"Full-Stack developer",
+        "years":"June 2015 - May 2017",
+        "description":"• Served as a friendly, hardworking, and punctual employee. • Organized and prioritized work to complete assignments in a timely, efficient manner. • Interfaced with clients to identify business requirements. • Managed front-end and back-end development in the company's Portfolio Analyst, Employee Track, and Account Management systems. • Worked to meet client deadlines."
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Mike has a great mentality that always seeks to improve his skills. His discipline makes working with him easy and challenging at the same time. He loves to share his ideas and accomplishments with other people, which makes him very easily leave an impact in any working environment.",
+        "user":"Ryan Delgrosso | CTO at RingRx"
+      },
+      {
+        "text":"I worked with Mike at Gentis. Mike is detailed orientated, has advanced system engineering and problem-solving skills. He has the ability to effectively manage several tasks at a time.",
+        "user":"Jushua Newman | Technical Recruiter at Gentis"
+      }
+    ]
+  }
+}
